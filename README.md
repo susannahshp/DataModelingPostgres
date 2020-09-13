@@ -1,10 +1,10 @@
 # Project: Data Modeling with Postgres
 
----
+
 
 ## Summary
 
----
+
 
 This project has been processed in Sparkify.
 Sparkify launched their new music streaming app a year ago, and they wanted to analyze their user activity. Since the log data was in JSON format, it was hard to query information effectively.
@@ -13,14 +13,14 @@ As a Data Engineer in Sparkify, our team worked on transferring the data from JS
 
 ## How to run the Python scripts
 
----
+
 
 In order to run the Python scripts, first you must run the create_tables python file. Then run the cells in etl.ipynb to read a single file from song_data and log_data and load the data into the tables. To check if it worked well, open the test.ipynb and run the cells. Once you are done, run etl.py in your console to load all of the log data into the tables. Finally, try testing the results with test notebook file.  
 
 
 ## Explanation of the files
 
----
+
 
 #### sql_queries.py
 
